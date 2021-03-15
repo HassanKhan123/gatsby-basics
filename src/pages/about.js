@@ -1,8 +1,9 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 const About = () => {
   return (
-    <div>
+    <Layout>
       <h1>About page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
@@ -76,7 +77,7 @@ const About = () => {
         soluta accusamus ipsum harum id architecto sapiente, nemo ad rerum
         expedita? Quasi dolore dolores id omnis a.
       </p>
-    </div>
+    </Layout>
   )
 }
 
